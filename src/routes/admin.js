@@ -1,0 +1,36 @@
+import { Router } from "express";
+import { adminAuth } from "../middleware/auth.js";
+import * as admin from "../models/admin.js";
+
+const router=Router();router.use(adminAuth);
+const wrap=(handler)=>(req,res,next)=>Promise.resolve(handler(req,res)).catch(next);
+const context=(req)=>({ip:req.ip,userAgent:req.get("user-agent")});
+const logged=(action,type,handler)=>wrap(async(req,res)=>{const result=await handler(req);await admin.audit(req.auth.sub,action,type,req.params.id||result?.id,null,result,context(req));res.json({success:true,data:result});});
+
+router.get("/dashboard",wrap(async(_req,res)=>res.json({success:true,dashboard:await admin.dashboard()})));
+router.get("/products",wrap(async(_req,res)=>res.json({success:true,products:await admin.listAdminProducts()})));
+router.get("/products/:id",wrap(async(req,res)=>{const p=await admin.getAdminProduct(req.params.id);if(!p)return res.status(404).json({success:false,message:"Product not found."});return res.json({success:true,product:p});}));
+router.post("/products",logged("PRODUCT_CREATE","product",async req=>{if(!req.body.sku||!req.body.slug||!req.body.title||!Number.isInteger(Number(req.body.priceYen)))throw Object.assign(new Error("sku, slug, title, and integer priceYen are required."),{status:400});return admin.createProduct(req.body);}));
+router.patch("/products/:id",logged("PRODUCT_UPDATE","product",req=>admin.updateProduct(req.params.id,req.body)));
+router.delete("/products/:id",logged("PRODUCT_ARCHIVE","product",req=>admin.archiveProduct(req.params.id)));
+router.get("/categories",wrap(async(_req,res)=>res.json({success:true,categories:await admin.listCategoriesAdmin()})));
+router.post("/categories",logged("CATEGORY_CREATE","category",req=>admin.createCategory(req.body)));
+router.patch("/categories/:id",logged("CATEGORY_UPDATE","category",req=>admin.updateCategory(req.params.id,req.body)));
+router.delete("/categories/:id",logged("CATEGORY_DELETE","category",async req=>({id:req.params.id,deleted:Boolean(await admin.deleteCategory(req.params.id))})));
+router.get("/collections",wrap(async(_req,res)=>res.json({success:true,collections:await admin.listCollectionsAdmin()})));
+router.post("/collections",logged("COLLECTION_CREATE","collection",req=>admin.createCollection(req.body)));
+router.patch("/collections/:id",logged("COLLECTION_UPDATE","collection",req=>admin.updateCollection(req.params.id,req.body)));
+router.delete("/collections/:id",logged("COLLECTION_DELETE","collection",async req=>({id:req.params.id,deleted:Boolean(await admin.deleteCollection(req.params.id))})));
+router.get("/inventory",wrap(async(_req,res)=>res.json({success:true,inventory:await admin.listInventory()})));
+router.patch("/inventory/:id",logged("INVENTORY_UPDATE","inventory",req=>admin.updateInventory(req.params.id,req.body)));
+router.get("/customers",wrap(async(_req,res)=>res.json({success:true,customers:await admin.listCustomers()})));
+router.patch("/customers/:id/status",logged("CUSTOMER_STATUS_UPDATE","customer",req=>admin.updateCustomerStatus(req.params.id,req.body.status)));
+router.get("/orders",wrap(async(_req,res)=>res.json({success:true,orders:await admin.listOrdersAdmin()})));
+router.get("/orders/:id",wrap(async(req,res)=>{const o=await admin.getOrderAdmin(req.params.id);if(!o)return res.status(404).json({success:false,message:"Order not found."});return res.json({success:true,order:o});}));
+router.patch("/orders/:id",logged("ORDER_UPDATE","order",req=>admin.updateOrder(req.params.id,req.body)));
+router.post("/orders/:id/payments",logged("PAYMENT_CREATE","payment",req=>admin.createPayment(req.params.id,req.body)));
+router.post("/orders/:id/shipments",logged("SHIPMENT_CREATE","shipment",req=>admin.createShipment(req.params.id,req.body)));
+router.get("/reviews",wrap(async(_req,res)=>res.json({success:true,reviews:await admin.listReviewsAdmin()})));
+router.patch("/reviews/:id/status",logged("REVIEW_MODERATE","review",req=>admin.moderateReview(req.params.id,req.body.status)));
+router.get("/audit-logs",wrap(async(_req,res)=>res.json({success:true,logs:await admin.listAudit()})));
+export default router;
