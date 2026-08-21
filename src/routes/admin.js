@@ -8,7 +8,9 @@ import * as admin from "../models/admin.js";
 
 const router=Router();router.use(adminAuth);
 const here=path.dirname(fileURLToPath(import.meta.url));
-const uploadRoot=path.resolve(process.env.UPLOAD_ROOT||path.join(here,"../../../shared-storage/images"));
+const backendRoot=path.resolve(here,"../..");
+const configuredUploadRoot=process.env.UPLOAD_ROOT||"../shared-storage/images";
+const uploadRoot=path.isAbsolute(configuredUploadRoot)?configuredUploadRoot:path.resolve(backendRoot,configuredUploadRoot);
 const productUploadDir=path.join(uploadRoot,"products");
 const imageTypes=new Map([
   ["image/jpeg",".jpg"],["image/png",".png"],["image/webp",".webp"],
