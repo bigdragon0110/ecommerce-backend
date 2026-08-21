@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { adminAuth } from "../middleware/auth.js";
 import * as admin from "../models/admin.js";
+import * as notifications from "../models/notifications.js";
 
 const router=Router();router.use(adminAuth);
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -55,6 +56,9 @@ router.get("/inventory",wrap(async(_req,res)=>res.json({success:true,inventory:a
 router.patch("/inventory/:id",logged("INVENTORY_UPDATE","inventory",req=>admin.updateInventory(req.params.id,req.body)));
 router.get("/customers",wrap(async(_req,res)=>res.json({success:true,customers:await admin.listCustomers()})));
 router.patch("/customers/:id/status",logged("CUSTOMER_STATUS_UPDATE","customer",req=>admin.updateCustomerStatus(req.params.id,req.body.status)));
+router.get("/notifications",wrap(async(_req,res)=>res.json({success:true,notifications:await notifications.listAdminNotifications()})));
+router.post("/notifications",logged("NOTIFICATION_CREATE","notification",req=>notifications.createNotification(req.auth.sub,req.body)));
+router.delete("/notifications/:id",logged("NOTIFICATION_DELETE","notification",async req=>({id:req.params.id,deleted:Boolean(await notifications.deleteNotification(req.params.id))})));
 router.get("/orders",wrap(async(_req,res)=>res.json({success:true,orders:await admin.listOrdersAdmin()})));
 router.get("/orders/:id",wrap(async(req,res)=>{const o=await admin.getOrderAdmin(req.params.id);if(!o)return res.status(404).json({success:false,message:"Order not found."});return res.json({success:true,order:o});}));
 router.patch("/orders/:id",logged("ORDER_UPDATE","order",req=>admin.updateOrder(req.params.id,req.body)));

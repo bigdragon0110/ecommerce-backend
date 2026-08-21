@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { customerAuth } from "../middleware/auth.js";
 import * as account from "../models/account.js";
+import * as notifications from "../models/notifications.js";
 
 const router = Router();
 router.use(customerAuth);
@@ -21,5 +22,9 @@ router.get("/account/addresses", wrap(async(req,res)=>res.json({success:true,add
 router.post("/account/addresses", wrap(async(req,res)=>{requireAddress(req.body);res.status(201).json({success:true,address:await account.createAddress(req.auth.sub,req.body)});}));
 router.patch("/account/addresses/:id", wrap(async(req,res)=>res.json({success:true,address:await account.updateAddress(req.auth.sub,req.params.id,req.body)})));
 router.delete("/account/addresses/:id", wrap(async(req,res)=>res.json({success:true,...await account.deleteAddress(req.auth.sub,req.params.id)})));
+router.get("/account/notifications",wrap(async(req,res)=>res.json({success:true,notifications:await notifications.listUserNotifications(req.auth.sub,req.query.limit),unreadCount:await notifications.unreadCount(req.auth.sub)})));
+router.patch("/account/notifications/read-all",wrap(async(req,res)=>res.json({success:true,updated:await notifications.markAllRead(req.auth.sub)})));
+router.patch("/account/notifications/:id/read",wrap(async(req,res)=>res.json({success:true,updated:await notifications.markRead(req.auth.sub,req.params.id)})));
+router.delete("/account/notifications/:id",wrap(async(req,res)=>res.json({success:true,updated:await notifications.hideNotification(req.auth.sub,req.params.id)})));
 
 export default router;
