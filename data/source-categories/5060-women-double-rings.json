@@ -1,0 +1,246 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=5060&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T01:30:55.855Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 5060,
+    "name": "2連風レディース指輪",
+    "slug": "women-double-rings",
+    "parentSourceCategoryId": 50,
+    "parentName": "女性 純金",
+    "parentSlug": "women-pure-gold"
+  },
+  "products": [
+    {
+      "id": 1686421326,
+      "title": "ハート ボール 王冠ペアリング",
+      "price": 84.2,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421326/thumb-thumb-GWS_19_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421326/thumb-thumb-GWS_19_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421326/thumb-thumb-GWS_19_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421326/thumb-thumb-GWS_19_7-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421325,
+      "title": "クロワッサン双指輪 指輪",
+      "price": 87.2,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421325/thumb-thumb-GWS_18_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421325/thumb-thumb-GWS_18_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421325/thumb-thumb-GWS_18_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421325/thumb-thumb-GWS_18_7-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421322,
+      "title": "凹型無光ペアリング要約情報 及び 購入",
+      "price": 119.7,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421322/thumb-thumb-GWS_13_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421322/thumb-thumb-GWS_13_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421322/thumb-thumb-GWS_13_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421322/thumb-thumb-GWS_13_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421318,
+      "title": "ダイヤカットペアリング",
+      "price": 119.5,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421318/thumb-thumb-GWS_16_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421318/thumb-thumb-GWS_16_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421318/thumb-thumb-GWS_16_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421318/thumb-thumb-GWS_16_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421317,
+      "title": "フラワー ペアリング",
+      "price": 119.5,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421317/thumb-thumb-GWS_11_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421317/thumb-thumb-GWS_11_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421317/thumb-thumb-GWS_11_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421317/thumb-thumb-GWS_11_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421316,
+      "title": "ピンク キューミン 双 指輪",
+      "price": 123.9,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421316/thumb-thumb-GWS_10_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421316/thumb-thumb-GWS_10_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421316/thumb-thumb-GWS_10_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421316/thumb-thumb-GWS_10_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421315,
+      "title": "ピンクキューブサンディングペアリング",
+      "price": 121.3,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421315/thumb-thumb-GWS_9_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421315/thumb-thumb-GWS_9_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421315/thumb-thumb-GWS_9_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421315/thumb-thumb-GWS_9_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421314,
+      "title": "カット サンディング ペアリング",
+      "price": 119.5,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421314/thumb-thumb-GWS_8_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421314/thumb-thumb-GWS_8_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421314/thumb-thumb-GWS_8_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421314/thumb-thumb-GWS_8_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421313,
+      "title": "スター カット 双 指輪",
+      "price": 117.3,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421313/thumb-thumb-GWS_6_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421313/thumb-thumb-GWS_6_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421313/thumb-thumb-GWS_6_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421313/thumb-thumb-GWS_6_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421312,
+      "title": "サンディング ペアリング",
+      "price": 118.4,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421312/thumb-thumb-GWS_5_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421312/thumb-thumb-GWS_5_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421312/thumb-thumb-GWS_5_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421312/thumb-thumb-GWS_5_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421311,
+      "title": "斜めカット サンディング 小さな ペア 指輪",
+      "price": 119.3,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421311/thumb-thumb-GWS_4_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421311/thumb-thumb-GWS_4_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421311/thumb-thumb-GWS_4_11-25_03_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421311/thumb-thumb-GWS_4_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421310,
+      "title": "無地サンディング 双 指輪",
+      "price": 117.3,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421310/thumb-thumb-GWS_3_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421310/thumb-thumb-GWS_3_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421310/thumb-thumb-GWS_3_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421310/thumb-thumb-GWS_3_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421309,
+      "title": "円形カットサンディング双指輪",
+      "price": 120.2,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421309/thumb-thumb-GWS_2_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421309/thumb-thumb-GWS_2_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421309/thumb-thumb-GWS_2_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421309/thumb-thumb-GWS_2_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421308,
+      "title": "宮中 双 指輪",
+      "price": 118.4,
+      "category": "2連風レディース指輪",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/5060/1686421308/thumb-thumb-GWS_1_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/5060/1686421308/thumb-thumb-GWS_1_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/5060/1686421308/thumb-thumb-GWS_1_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/5060/1686421308/thumb-thumb-GWS_1_11-25_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "women-double-rings": [
+      1686421326,
+      1686421325,
+      1686421322,
+      1686421318,
+      1686421317,
+      1686421316,
+      1686421315,
+      1686421314,
+      1686421313,
+      1686421312,
+      1686421311,
+      1686421310,
+      1686421309,
+      1686421308
+    ]
+  }
+}

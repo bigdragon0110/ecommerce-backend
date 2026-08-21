@@ -1,0 +1,20 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=7010&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:02:23.869Z",
+    "pageCount": 0,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 7010,
+    "name": "シルバージュエリー",
+    "slug": "couple-silver-jewelry",
+    "parentSourceCategoryId": 70,
+    "parentName": "カップル",
+    "parentSlug": "couples"
+  },
+  "products": [],
+  "sections": {
+    "couple-silver-jewelry": []
+  }
+}

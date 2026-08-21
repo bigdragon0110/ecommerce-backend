@@ -1,0 +1,150 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=80&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:03:56.885Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 80,
+    "name": "企業&GIFT プレゼント",
+    "slug": "corporate-gifts",
+    "parentSourceCategoryId": null,
+    "parentName": null,
+    "parentSlug": null
+  },
+  "products": [
+    {
+      "id": 1686513058,
+      "title": "幸運が宿る黄金鹿要約情報と購入",
+      "price": 385.8,
+      "category": "企業&GIFT プレゼント",
+      "badge": "RECOMMENDED",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686513057,
+      "title": "神秘的な黄金竜 37.5g",
+      "price": 391.3,
+      "category": "企業&GIFT プレゼント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512754,
+      "title": "ゴルフクラブ 反攻ゴルフ ハングル 対象牌",
+      "price": 242.3,
+      "category": "企業&GIFT プレゼント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512753,
+      "title": "ゴルフクラブ 反共 ゴルフ 英文名 対象牌 要約情報 及び 購入",
+      "price": 242.3,
+      "category": "企業&GIFT プレゼント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512752,
+      "title": "ゴルフクラブ 反共ゴルフ ハングル 中賞牌",
+      "price": 165.7,
+      "category": "企業&GIFT プレゼント",
+      "badge": "HIT",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512751,
+      "title": "ゴルフクラブ 反共ゴルフ 英文 中賞牌",
+      "price": 165.7,
+      "category": "企業&GIFT プレゼント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512750,
+      "title": "ゴルフクラブ 反共 ゴルフ ハングル 小賞牌",
+      "price": 127.2,
+      "category": "企業&GIFT プレゼント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512749,
+      "title": "ゴルフクラブ 反共 ゴルフ 英語 小賞牌",
+      "price": 127.2,
+      "category": "企業&GIFT プレゼント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "corporate-gifts": [
+      1686513058,
+      1686513057,
+      1686512754,
+      1686512753,
+      1686512752,
+      1686512751,
+      1686512750,
+      1686512749
+    ]
+  }
+}

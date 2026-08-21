@@ -22,7 +22,7 @@ export const dashboard = async () => {
 };
 
 export const listAdminProducts = async () => {
-  const [rows] = await db.query(`SELECT p.id,p.sku,p.slug,p.title,p.price_yen AS priceYen,p.badge,p.status,
+  const [rows] = await db.query(`SELECT p.id,p.category_id AS categoryId,p.sku,p.slug,p.title,p.price_yen AS priceYen,p.badge,p.status,
     p.created_at AS createdAt,c.name AS categoryName,
     COALESCE(SUM(i.quantity_available),0) AS stock FROM products p LEFT JOIN categories c ON c.id=p.category_id
     LEFT JOIN product_variants v ON v.product_id=p.id LEFT JOIN inventory i ON i.variant_id=v.id

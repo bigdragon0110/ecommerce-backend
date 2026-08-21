@@ -1,0 +1,20 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=2030&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:31:49.111Z",
+    "pageCount": 0,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 2030,
+    "name": "十二支の神ゴールドバー",
+    "slug": "zodiac-gold-bar",
+    "parentSourceCategoryId": 20,
+    "parentName": "GOLD BAR",
+    "parentSlug": "gold-bar"
+  },
+  "products": [],
+  "sections": {
+    "zodiac-gold-bar": []
+  }
+}

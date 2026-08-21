@@ -1,0 +1,118 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=8020&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:04:55.170Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 8020,
+    "name": "GOLF",
+    "slug": "corporate-golf",
+    "parentSourceCategoryId": 80,
+    "parentName": "企業&GIFT プレゼント",
+    "parentSlug": "corporate-gifts"
+  },
+  "products": [
+    {
+      "id": 1686512754,
+      "title": "ゴルフクラブ 反攻ゴルフ ハングル 対象牌",
+      "price": 242.3,
+      "category": "GOLF",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512754/thumb-thumb-GGF_8_22-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512753,
+      "title": "ゴルフクラブ 反共 ゴルフ 英文名 対象牌 要約情報 及び 購入",
+      "price": 242.3,
+      "category": "GOLF",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512753/thumb-thumb-GGF_7_22-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512752,
+      "title": "ゴルフクラブ 反共ゴルフ ハングル 中賞牌",
+      "price": 165.7,
+      "category": "GOLF",
+      "badge": "HIT",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512752/thumb-thumb-GGF_6_15_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512751,
+      "title": "ゴルフクラブ 反共ゴルフ 英文 中賞牌",
+      "price": 165.7,
+      "category": "GOLF",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512751/thumb-thumb-GGF_5_15_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512750,
+      "title": "ゴルフクラブ 反共 ゴルフ ハングル 小賞牌",
+      "price": 127.2,
+      "category": "GOLF",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512750/thumb-thumb-GGF_4_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686512749,
+      "title": "ゴルフクラブ 反共 ゴルフ 英語 小賞牌",
+      "price": 127.2,
+      "category": "GOLF",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8020/1686512749/thumb-thumb-GGF_3_11-25_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "corporate-golf": [
+      1686512754,
+      1686512753,
+      1686512752,
+      1686512751,
+      1686512750,
+      1686512749
+    ]
+  }
+}

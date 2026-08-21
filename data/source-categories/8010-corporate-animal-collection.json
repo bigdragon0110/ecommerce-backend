@@ -1,0 +1,54 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=8010&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:04:37.439Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 8010,
+    "name": "所蔵品(動物)",
+    "slug": "corporate-animal-collection",
+    "parentSourceCategoryId": 80,
+    "parentName": "企業&GIFT プレゼント",
+    "parentSlug": "corporate-gifts"
+  },
+  "products": [
+    {
+      "id": 1686513058,
+      "title": "幸運が宿る黄金鹿要約情報と購入",
+      "price": 385.8,
+      "category": "所蔵品(動物)",
+      "badge": "RECOMMENDED",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8010/1686513058/thumb-thumb-GGA_5_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686513057,
+      "title": "神秘的な黄金竜 37.5g",
+      "price": 391.3,
+      "category": "所蔵品(動物)",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/8010/1686513057/thumb-thumb-GGA_2_37-5_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "corporate-animal-collection": [
+      1686513058,
+      1686513057
+    ]
+  }
+}

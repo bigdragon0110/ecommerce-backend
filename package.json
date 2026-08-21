@@ -7,9 +7,16 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "check": "node --check src/server.js && node --check src/app.js && node --check src/controllers/customer-auth.js && node --check src/controllers/admin-auth.js && node --check src/routes/catalog.js && node --check src/routes/commerce.js && node --check src/routes/account.js && node --check src/routes/admin.js && node --check src/models/catalog.js && node --check src/models/commerce.js && node --check src/models/account.js && node --check src/models/admin.js && node --check scripts/import-products.js && node --check scripts/create-super-admin.js",
+    "check": "node --check src/server.js && node --check src/app.js && node --check src/controllers/customer-auth.js && node --check src/controllers/admin-auth.js && node --check src/routes/catalog.js && node --check src/routes/commerce.js && node --check src/routes/account.js && node --check src/routes/admin.js && node --check src/models/catalog.js && node --check src/models/commerce.js && node --check src/models/account.js && node --check src/models/admin.js && node --check scripts/import-products.js && node --check scripts/scrape-source-category.js && node --check scripts/sync-source-categories.js && node --check scripts/create-super-admin.js",
     "import:products": "node scripts/import-products.js",
-    "admin:create": "node scripts/create-super-admin.js"
+    "scrape:theme-jewelry": "node scripts/scrape-source-category.js --pages=10",
+    "sync:theme-jewelry": "node scripts/scrape-source-category.js --pages=10 && node scripts/import-products.js data/theme-jewelry.json",
+    "scrape:all-categories": "node scripts/sync-source-categories.js",
+    "sync:all-categories": "node scripts/sync-source-categories.js --import",
+    "sync:remaining-categories": "node scripts/sync-source-categories.js --import --from=2020",
+    "sync:missing-categories": "node scripts/sync-source-categories.js --import --missing",
+    "admin:create": "node scripts/create-super-admin.js",
+    "db:migrate:categories": "node scripts/apply-category-migration.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",

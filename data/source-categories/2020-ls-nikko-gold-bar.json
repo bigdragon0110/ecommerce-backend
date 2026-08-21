@@ -1,0 +1,20 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=2020&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:31:41.641Z",
+    "pageCount": 0,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 2020,
+    "name": "LS-NIKKO ゴールドバー",
+    "slug": "ls-nikko-gold-bar",
+    "parentSourceCategoryId": 20,
+    "parentName": "GOLD BAR",
+    "parentSlug": "gold-bar"
+  },
+  "products": [],
+  "sections": {
+    "ls-nikko-gold-bar": []
+  }
+}

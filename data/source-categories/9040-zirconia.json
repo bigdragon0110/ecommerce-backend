@@ -1,0 +1,118 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=9040&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:19:15.045Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 9040,
+    "name": "ジルコニア",
+    "slug": "zirconia",
+    "parentSourceCategoryId": 90,
+    "parentName": "ウエディング",
+    "parentSlug": "wedding"
+  },
+  "products": [
+    {
+      "id": 1686516290,
+      "title": "テニス ブレスレット 4足 3.0mm (大)",
+      "price": 103.3,
+      "category": "ジルコニア",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9040/1686516290/thumb-thumb-1418_MWB_0162_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9040/1686516290/thumb-thumb-1418_MWB_0162_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9040/1686516290/thumb-thumb-1418_MWB_0162_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9040/1686516290/thumb-thumb-1418_MWB_0162_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516289,
+      "title": "テニス ブレスレット 4本足 2.5mm (中)",
+      "price": 101,
+      "category": "ジルコニア",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9040/1686516289/thumb-thumb-1418_MWB_0161_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9040/1686516289/thumb-thumb-1418_MWB_0161_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9040/1686516289/thumb-thumb-1418_MWB_0161_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9040/1686516289/thumb-thumb-1418_MWB_0161_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516288,
+      "title": "テニス ブレスレット 4足 1.7mm (小)",
+      "price": 90.8,
+      "category": "ジルコニア",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9040/1686516288/thumb-thumb-1418_MWB_0160_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9040/1686516288/thumb-thumb-1418_MWB_0160_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9040/1686516288/thumb-thumb-1418_MWB_0160_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9040/1686516288/thumb-thumb-1418_MWB_0160_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516287,
+      "title": "テニス ブレスレット 3発 3.0mm (大)",
+      "price": 98.3,
+      "category": "ジルコニア",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9040/1686516287/thumb-thumb-1418_MWB_0159_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9040/1686516287/thumb-thumb-1418_MWB_0159_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9040/1686516287/thumb-thumb-1418_MWB_0159_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9040/1686516287/thumb-thumb-1418_MWB_0159_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516286,
+      "title": "テニスブレスレット 3発 2.5mm (中)",
+      "price": 99.2,
+      "category": "ジルコニア",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9040/1686516286/thumb-thumb-1418_MWB_0158_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9040/1686516286/thumb-thumb-1418_MWB_0158_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9040/1686516286/thumb-thumb-1418_MWB_0158_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9040/1686516286/thumb-thumb-1418_MWB_0158_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516285,
+      "title": "テニスブレスレット 3発 1.7mm (小)",
+      "price": 84.5,
+      "category": "ジルコニア",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9040/1686516285/thumb-thumb-1418_MWB_0157_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9040/1686516285/thumb-thumb-1418_MWB_0157_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9040/1686516285/thumb-thumb-1418_MWB_0157_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9040/1686516285/thumb-thumb-1418_MWB_0157_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "zirconia": [
+      1686516290,
+      1686516289,
+      1686516288,
+      1686516287,
+      1686516286,
+      1686516285
+    ]
+  }
+}

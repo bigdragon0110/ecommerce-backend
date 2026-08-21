@@ -1,0 +1,38 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=2040&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:31:57.740Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 2040,
+    "name": "手紙ゴールドバー",
+    "slug": "letter-gold-bar",
+    "parentSourceCategoryId": 20,
+    "parentName": "GOLD BAR",
+    "parentSlug": "gold-bar"
+  },
+  "products": [
+    {
+      "id": 1686421772,
+      "title": "十二支ゴールドバー12種セット",
+      "price": 466.6,
+      "category": "手紙ゴールドバー",
+      "badge": "HIT",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "letter-gold-bar": [
+      1686421772
+    ]
+  }
+}

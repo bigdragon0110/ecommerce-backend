@@ -6,7 +6,7 @@ dotenv.config({
 
 const { default: app } = await import("./app.js");
 const { checkDatabaseConnection } = await import("./config/db.js");
-const port = Number(process.env.PORT || 4000);
+const port = Number(process.env.PORT || 3100);
 
 checkDatabaseConnection()
   .then(() => {

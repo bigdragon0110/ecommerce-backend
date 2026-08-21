@@ -1,0 +1,102 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=30&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:32:10.086Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 30,
+    "name": "SILVER BAR",
+    "slug": "silver-bar",
+    "parentSourceCategoryId": null,
+    "parentName": null,
+    "parentSlug": null
+  },
+  "products": [
+    {
+      "id": 1686421753,
+      "title": "シルバーバー 1000g",
+      "price": 139.4,
+      "category": "SILVER BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421752,
+      "title": "シルバーバー 500g",
+      "price": 69.1,
+      "category": "SILVER BAR",
+      "badge": "HIT",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421750,
+      "title": "投資用 シルバーバー 1000g (10個)",
+      "price": 1302.1,
+      "category": "SILVER BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421749,
+      "title": "投資用 シルバーバー 1000g (5個)",
+      "price": 652,
+      "category": "SILVER BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421748,
+      "title": "投資用 シルバーバー 1000g 要約情報 及び 購入",
+      "price": 135.3,
+      "category": "SILVER BAR",
+      "badge": "RECOMMENDED",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "silver-bar": [
+      1686421753,
+      1686421752,
+      1686421750,
+      1686421749,
+      1686421748
+    ]
+  }
+}

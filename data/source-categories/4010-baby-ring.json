@@ -1,0 +1,20 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=4010&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:34:33.929Z",
+    "pageCount": 0,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 4010,
+    "name": "ベビーリング",
+    "slug": "baby-ring",
+    "parentSourceCategoryId": 40,
+    "parentName": "初誕生",
+    "parentSlug": "first-birthday"
+  },
+  "products": [],
+  "sections": {
+    "baby-ring": []
+  }
+}

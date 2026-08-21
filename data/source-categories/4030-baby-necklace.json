@@ -1,0 +1,102 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=4030&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:35:46.196Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 4030,
+    "name": "ベビーネックレス",
+    "slug": "baby-necklace",
+    "parentSourceCategoryId": 40,
+    "parentName": "初誕生",
+    "parentSlug": "first-birthday"
+  },
+  "products": [
+    {
+      "id": 1686421656,
+      "title": "純金 豚 一歳誕生日 ネックレス",
+      "price": 58.9,
+      "category": "ベビーネックレス",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/4030/1686421656/thumb-thumb-GBN_5_5-625_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/4030/1686421656/thumb-thumb-GBN_5_5-625_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/4030/1686421656/thumb-thumb-GBN_5_5-625_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/4030/1686421656/thumb-thumb-GBN_5_5-625_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421655,
+      "title": "王冠ネックレス",
+      "price": 60,
+      "category": "ベビーネックレス",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/4030/1686421655/thumb-thumb-GBN_4_5-625_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/4030/1686421655/thumb-thumb-GBN_4_5-625_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/4030/1686421655/thumb-thumb-GBN_4_5-625_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/4030/1686421655/thumb-thumb-GBN_4_5-625_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421654,
+      "title": "キラキラ 王冠 ネックレス",
+      "price": 60,
+      "category": "ベビーネックレス",
+      "badge": "SALE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/4030/1686421654/thumb-thumb-GBN_3_5-625_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/4030/1686421654/thumb-thumb-GBN_3_5-625_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/4030/1686421654/thumb-thumb-GBN_3_5-625_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/4030/1686421654/thumb-thumb-GBN_3_5-625_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421653,
+      "title": "ダイヤ 王冠 ネックレス",
+      "price": 60,
+      "category": "ベビーネックレス",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/4030/1686421653/thumb-thumb-GBN_2_5-625_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/4030/1686421653/thumb-thumb-GBN_2_5-625_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/4030/1686421653/thumb-thumb-GBN_2_5-625_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/4030/1686421653/thumb-thumb-GBN_2_5-625_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421652,
+      "title": "コカ·シューズ ネックレス",
+      "price": 78.1,
+      "category": "ベビーネックレス",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/4030/1686421652/thumb-thumb-GBN_1_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/4030/1686421652/thumb-thumb-GBN_1_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/4030/1686421652/thumb-thumb-GBN_1_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/4030/1686421652/thumb-thumb-GBN_1_7-5_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "baby-necklace": [
+      1686421656,
+      1686421655,
+      1686421654,
+      1686421653,
+      1686421652
+    ]
+  }
+}

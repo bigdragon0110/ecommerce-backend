@@ -1,0 +1,70 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=3020&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:32:51.896Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 3020,
+    "name": "投資型シルバーバー",
+    "slug": "investment-silver-bar",
+    "parentSourceCategoryId": 30,
+    "parentName": "SILVER BAR",
+    "parentSlug": "silver-bar"
+  },
+  "products": [
+    {
+      "id": 1686421750,
+      "title": "投資用 シルバーバー 1000g (10個)",
+      "price": 1302.1,
+      "category": "投資型シルバーバー",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3020/1686421750/thumb-thumb-KSB_2_10000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421749,
+      "title": "投資用 シルバーバー 1000g (5個)",
+      "price": 652,
+      "category": "投資型シルバーバー",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3020/1686421749/thumb-thumb-KSB_2_5000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421748,
+      "title": "投資用 シルバーバー 1000g 要約情報 及び 購入",
+      "price": 135.3,
+      "category": "投資型シルバーバー",
+      "badge": "RECOMMENDED",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3020/1686421748/thumb-thumb-KSB_2_1000_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "investment-silver-bar": [
+      1686421750,
+      1686421749,
+      1686421748
+    ]
+  }
+}

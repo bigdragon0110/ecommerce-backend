@@ -1,0 +1,166 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=9030&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:18:26.910Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 9030,
+    "name": "モアッサナイト",
+    "slug": "moissanite",
+    "parentSourceCategoryId": 90,
+    "parentName": "ウエディング",
+    "parentSlug": "wedding"
+  },
+  "products": [
+    {
+      "id": 1686516121,
+      "title": "モイサナイト ダイヤモンド テニス ブレスレット 4発 3.0mm (大)",
+      "price": 116.5,
+      "category": "モアッサナイト",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516121/thumb-thumb-1418_MWB_0162-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516121/thumb-thumb-1418_MWB_0162-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516121/thumb-thumb-1418_MWB_0162-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516121/thumb-thumb-1418_MWB_0162-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516120,
+      "title": "モイサナイト ダイヤモンド テニス ブレスレット 4発 2.5mm (中) 要約情報·購入",
+      "price": 108.5,
+      "category": "モアッサナイト",
+      "badge": "POPULAR",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516120/thumb-thumb-1418_MWB_0161-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516120/thumb-thumb-1418_MWB_0161-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516120/thumb-thumb-1418_MWB_0161-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516120/thumb-thumb-1418_MWB_0161-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516119,
+      "title": "モイサナイト ダイヤモンド テニス ブレスレット 4発 1.7mm (小)",
+      "price": 90.8,
+      "category": "モアッサナイト",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516119/thumb-thumb-1418_MWB_0160-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516119/thumb-thumb-1418_MWB_0160-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516119/thumb-thumb-1418_MWB_0160-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516119/thumb-thumb-1418_MWB_0160-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516118,
+      "title": "モイサナイト ダイヤモンド テニス ブレスレット 3発 3.0mm (大)",
+      "price": 109.9,
+      "category": "モアッサナイト",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516118/thumb-thumb-1418_MWB_0159-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516118/thumb-thumb-1418_MWB_0159-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516118/thumb-thumb-1418_MWB_0159-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516118/thumb-thumb-1418_MWB_0159-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516117,
+      "title": "モイサナイト ダイヤモンド テニス ブレスレット 3発 2.5mm (中) 要約情報·購入",
+      "price": 106.9,
+      "category": "モアッサナイト",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516117/thumb-thumb-1418_MWB_0158-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516117/thumb-thumb-1418_MWB_0158-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516117/thumb-thumb-1418_MWB_0158-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516117/thumb-thumb-1418_MWB_0158-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516116,
+      "title": "モイサナイト ダイヤモンド テニス ブレスレット 3発 1.7mm (小)",
+      "price": 86.1,
+      "category": "モアッサナイト",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516116/thumb-thumb-1418_MWB_0157-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516116/thumb-thumb-1418_MWB_0157-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516116/thumb-thumb-1418_MWB_0157-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516116/thumb-thumb-1418_MWB_0157-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516111,
+      "title": "CARAT モイサナイト 指輪 4 PROEN",
+      "price": 58.2,
+      "category": "モアッサナイト",
+      "badge": "POPULAR",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516111/thumb-thumb-1418_MWR_0263-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516111/thumb-thumb-1418_MWR_0263-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516111/thumb-thumb-1418_MWR_0263-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516111/thumb-thumb-1418_MWR_0263-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516106,
+      "title": "CARAT モイサナイト ネックレス 4プロング",
+      "price": 50.5,
+      "category": "モアッサナイト",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516106/thumb-thumb-1418_MWN_0293-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516106/thumb-thumb-1418_MWN_0293-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516106/thumb-thumb-1418_MWN_0293-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516106/thumb-thumb-1418_MWN_0293-MOI_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686516070,
+      "title": "1カラット モイサナイト ネックレス 6プロング",
+      "price": 51.5,
+      "category": "モアッサナイト",
+      "badge": "POPULAR",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9030/1686516070/thumb-thumb-1418_MWN_0276-MOI_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9030/1686516070/thumb-thumb-1418_MWN_0276-MOI_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9030/1686516070/thumb-thumb-1418_MWN_0276-MOI_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9030/1686516070/thumb-thumb-1418_MWN_0276-MOI_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "moissanite": [
+      1686516121,
+      1686516120,
+      1686516119,
+      1686516118,
+      1686516117,
+      1686516116,
+      1686516111,
+      1686516106,
+      1686516070
+    ]
+  }
+}

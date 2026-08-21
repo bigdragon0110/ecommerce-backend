@@ -1,0 +1,310 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=70&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:01:05.925Z",
+    "pageCount": 2,
+    "discoveredPageCount": 2
+  },
+  "category": {
+    "sourceCategoryId": 70,
+    "name": "カップル",
+    "slug": "couples",
+    "parentSourceCategoryId": null,
+    "parentName": null,
+    "parentSlug": null
+  },
+  "products": [
+    {
+      "id": 1686515596,
+      "title": "アルディンメンズリング",
+      "price": 60.4,
+      "category": "カップル",
+      "badge": "SALE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515596/thumb-thumb-1418_MCR_0147_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515596/thumb-thumb-1418_MCR_0147_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515596/thumb-thumb-1418_MCR_0147_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515596/thumb-thumb-1418_MCR_0147_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515595,
+      "title": "エルガナ メンズ指輪",
+      "price": 69.2,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515595/thumb-thumb-1418_MCR_0145_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515595/thumb-thumb-1418_MCR_0145_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515595/thumb-thumb-1418_MCR_0145_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515595/thumb-thumb-1418_MCR_0145_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515594,
+      "title": "エレックスメンズリング",
+      "price": 91.9,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515594/thumb-thumb-1418_MCR_0143_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515594/thumb-thumb-1418_MCR_0143_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515594/thumb-thumb-1418_MCR_0143_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515594/thumb-thumb-1418_MCR_0143_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515592,
+      "title": "アネット男性指輪",
+      "price": 110.8,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515592/thumb-thumb-1418_MCR_0139_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515592/thumb-thumb-1418_MCR_0139_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515592/thumb-thumb-1418_MCR_0139_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515592/thumb-thumb-1418_MCR_0139_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515591,
+      "title": "エネン メンズ指輪",
+      "price": 91.3,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515591/thumb-thumb-1418_MCR_0130_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515591/thumb-thumb-1418_MCR_0130_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515591/thumb-thumb-1418_MCR_0130_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515591/thumb-thumb-1418_MCR_0130_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515590,
+      "title": "シーリーメンズリング",
+      "price": 58.1,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515590/thumb-thumb-1418_MCR_0136_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515590/thumb-thumb-1418_MCR_0136_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515590/thumb-thumb-1418_MCR_0136_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515590/thumb-thumb-1418_MCR_0136_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515589,
+      "title": "ミルダ メンズ指輪",
+      "price": 69.2,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515589/thumb-thumb-1418_MCR_0128_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515589/thumb-thumb-1418_MCR_0128_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515589/thumb-thumb-1418_MCR_0128_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515589/thumb-thumb-1418_MCR_0128_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515588,
+      "title": "ブリデュ メンズ指輪",
+      "price": 87.3,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515588/thumb-thumb-1418_MCR_0132_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515588/thumb-thumb-1418_MCR_0132_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515588/thumb-thumb-1418_MCR_0132_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515588/thumb-thumb-1418_MCR_0132_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515587,
+      "title": "ヘブロン 男性指輪",
+      "price": 84.8,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515587/thumb-thumb-1418_MCR_0134_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515587/thumb-thumb-1418_MCR_0134_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515587/thumb-thumb-1418_MCR_0134_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515587/thumb-thumb-1418_MCR_0134_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515586,
+      "title": "ヘリア メンズ 指輪",
+      "price": 55.6,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515586/thumb-thumb-1418_MCR_0125_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515586/thumb-thumb-1418_MCR_0125_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515586/thumb-thumb-1418_MCR_0125_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515586/thumb-thumb-1418_MCR_0125_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515585,
+      "title": "エネルギッシュ メンズ指輪",
+      "price": 51.9,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515585/thumb-thumb-1418_MCR_0127_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515585/thumb-thumb-1418_MCR_0127_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515585/thumb-thumb-1418_MCR_0127_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515585/thumb-thumb-1418_MCR_0127_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515583,
+      "title": "ブルガ メンズ指輪",
+      "price": 63,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515583/thumb-thumb-1418_MCR_0119_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515583/thumb-thumb-1418_MCR_0119_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515583/thumb-thumb-1418_MCR_0119_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515583/thumb-thumb-1418_MCR_0119_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515582,
+      "title": "マリア 男性指輪",
+      "price": 60.8,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515582/thumb-thumb-1418_MCR_0117_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515582/thumb-thumb-1418_MCR_0117_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515582/thumb-thumb-1418_MCR_0117_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515582/thumb-thumb-1418_MCR_0117_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515577,
+      "title": "アベル 男性指輪",
+      "price": 50.9,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515577/thumb-thumb-1418_MCR_0096_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515577/thumb-thumb-1418_MCR_0096_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515577/thumb-thumb-1418_MCR_0096_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515577/thumb-thumb-1418_MCR_0096_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515554,
+      "title": "ブルーナ メンズ指輪",
+      "price": 54.1,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515554/thumb-thumb-1418_MCR_0044_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515554/thumb-thumb-1418_MCR_0044_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515554/thumb-thumb-1418_MCR_0044_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515554/thumb-thumb-1418_MCR_0044_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515552,
+      "title": "ブロート 男性指輪",
+      "price": 72.6,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515552/thumb-thumb-1418_MCR_0028_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515552/thumb-thumb-1418_MCR_0028_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515552/thumb-thumb-1418_MCR_0028_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515552/thumb-thumb-1418_MCR_0028_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515551,
+      "title": "ベルティオ メンズ指輪",
+      "price": 70.8,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515551/thumb-thumb-1418_MCR_0034_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515551/thumb-thumb-1418_MCR_0034_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515551/thumb-thumb-1418_MCR_0034_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515551/thumb-thumb-1418_MCR_0034_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686515550,
+      "title": "ケリー 男性指輪",
+      "price": 62.6,
+      "category": "カップル",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/7030/1686515550/thumb-thumb-1418_MCR_0020_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/7030/1686515550/thumb-thumb-1418_MCR_0020_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/7030/1686515550/thumb-thumb-1418_MCR_0020_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/7030/1686515550/thumb-thumb-1418_MCR_0020_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "couples": [
+      1686515596,
+      1686515595,
+      1686515594,
+      1686515592,
+      1686515591,
+      1686515590,
+      1686515589,
+      1686515588,
+      1686515587,
+      1686515586,
+      1686515585,
+      1686515583,
+      1686515582,
+      1686515577,
+      1686515554,
+      1686515552,
+      1686515551,
+      1686515550
+    ]
+  }
+}

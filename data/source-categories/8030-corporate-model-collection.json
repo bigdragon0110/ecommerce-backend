@@ -1,0 +1,20 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=8030&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:05:26.984Z",
+    "pageCount": 0,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 8030,
+    "name": "所蔵品(模型)",
+    "slug": "corporate-model-collection",
+    "parentSourceCategoryId": 80,
+    "parentName": "企業&GIFT プレゼント",
+    "parentSlug": "corporate-gifts"
+  },
+  "products": [],
+  "sections": {
+    "corporate-model-collection": []
+  }
+}

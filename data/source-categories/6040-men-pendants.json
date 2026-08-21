@@ -1,0 +1,246 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=6040&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:00:01.430Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 6040,
+    "name": "男性ペンダント",
+    "slug": "men-pendants",
+    "parentSourceCategoryId": 60,
+    "parentName": "男性 純金",
+    "parentSlug": "men-pure-gold"
+  },
+  "products": [
+    {
+      "id": 1686510062,
+      "title": "オニキス 虎 ペンダント",
+      "price": 198,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510062/thumb-thumb-GMP_3_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510062/thumb-thumb-GMP_3_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510062/thumb-thumb-GMP_3_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510062/thumb-thumb-GMP_3_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510061,
+      "title": "クラウド用ペンダント",
+      "price": 195.3,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510061/thumb-thumb-GMP_1_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510061/thumb-thumb-GMP_1_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510061/thumb-thumb-GMP_1_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510061/thumb-thumb-GMP_1_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510060,
+      "title": "十字架ペンダント",
+      "price": 122.2,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510060/thumb-thumb-GMP_12_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510060/thumb-thumb-GMP_12_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510060/thumb-thumb-GMP_12_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510060/thumb-thumb-GMP_12_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510059,
+      "title": "斜めカット 十字架ペンダント",
+      "price": 84.6,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510059/thumb-thumb-GMP_11_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510059/thumb-thumb-GMP_11_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510059/thumb-thumb-GMP_11_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510059/thumb-thumb-GMP_11_7-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510058,
+      "title": "ブラック トラ ペンダント",
+      "price": 213.4,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510058/thumb-thumb-GMP_4_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510058/thumb-thumb-GMP_4_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510058/thumb-thumb-GMP_4_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510058/thumb-thumb-GMP_4_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510057,
+      "title": "柱用ペンダント",
+      "price": 206.8,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510057/thumb-thumb-GMP_13_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510057/thumb-thumb-GMP_13_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510057/thumb-thumb-GMP_13_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510057/thumb-thumb-GMP_13_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510056,
+      "title": "黄金牛ペンダント",
+      "price": 120.4,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510056/thumb-thumb-GMP_8_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510056/thumb-thumb-GMP_8_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510056/thumb-thumb-GMP_8_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510056/thumb-thumb-GMP_8_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510055,
+      "title": "太極 虎 ペンダント",
+      "price": 196.9,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510055/thumb-thumb-GMP_2_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510055/thumb-thumb-GMP_2_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510055/thumb-thumb-GMP_2_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510055/thumb-thumb-GMP_2_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510054,
+      "title": "四角 雲用 ペンダント",
+      "price": 192.5,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510054/thumb-thumb-GMP_5_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510054/thumb-thumb-GMP_5_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510054/thumb-thumb-GMP_5_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510054/thumb-thumb-GMP_5_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510053,
+      "title": "スジ 十字架 ペンダント",
+      "price": 78.4,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510053/thumb-thumb-GMP_10_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510053/thumb-thumb-GMP_10_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510053/thumb-thumb-GMP_10_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510053/thumb-thumb-GMP_10_7-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510051,
+      "title": "クローペンダント",
+      "price": 194.7,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510051/thumb-thumb-GMP_9_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510051/thumb-thumb-GMP_9_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510051/thumb-thumb-GMP_9_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510051/thumb-thumb-GMP_9_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510050,
+      "title": "クローペンダント",
+      "price": 118.9,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "[指輪] 女子基本12号ㅣ男子基本19号[ネックレス]女子基本42cml男子基本50cm[ブレスレット]女子基本17.5cml男子基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510050/thumb-thumb-GMP_9_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510050/thumb-thumb-GMP_9_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510050/thumb-thumb-GMP_9_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510050/thumb-thumb-GMP_9_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510049,
+      "title": "山の太極虎ペンダントの概要情報と購入",
+      "price": 202.4,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510049/thumb-thumb-GMP_7_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510049/thumb-thumb-GMP_7_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510049/thumb-thumb-GMP_7_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510049/thumb-thumb-GMP_7_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686510048,
+      "title": "山の虎ペンダントの概要情報と購入",
+      "price": 197.5,
+      "category": "男性ペンダント",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/6040/1686510048/thumb-thumb-GMP_6_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/6040/1686510048/thumb-thumb-GMP_6_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/6040/1686510048/thumb-thumb-GMP_6_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/6040/1686510048/thumb-thumb-GMP_6_18-75_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "men-pendants": [
+      1686510062,
+      1686510061,
+      1686510060,
+      1686510059,
+      1686510058,
+      1686510057,
+      1686510056,
+      1686510055,
+      1686510054,
+      1686510053,
+      1686510051,
+      1686510050,
+      1686510049,
+      1686510048
+    ]
+  }
+}

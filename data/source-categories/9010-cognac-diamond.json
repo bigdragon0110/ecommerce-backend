@@ -1,0 +1,38 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=9010&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T02:08:01.963Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 9010,
+    "name": "コニャックダイヤモンド",
+    "slug": "cognac-diamond",
+    "parentSourceCategoryId": 90,
+    "parentName": "ウエディング",
+    "parentSlug": "wedding"
+  },
+  "products": [
+    {
+      "id": 1686515846,
+      "title": "3分丈 コニャック イヤリング 6プロング",
+      "price": 62.5,
+      "category": "コニャックダイヤモンド",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/9010/1686515846/thumb-thumb-1418_MWE_0275-DIA_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/9010/1686515846/thumb-thumb-1418_MWE_0275-DIA_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/9010/1686515846/thumb-thumb-1418_MWE_0275-DIA_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/9010/1686515846/thumb-thumb-1418_MWE_0275-DIA_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "cognac-diamond": [
+      1686515846
+    ]
+  }
+}

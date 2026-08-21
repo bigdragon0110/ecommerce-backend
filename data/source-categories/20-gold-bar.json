@@ -1,0 +1,230 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=20&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:03:43.822Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 20,
+    "name": "GOLD BAR",
+    "slug": "gold-bar",
+    "parentSourceCategoryId": null,
+    "parentName": null,
+    "parentSlug": null
+  },
+  "products": [
+    {
+      "id": 1686421799,
+      "title": "ウサギ ゴールドバー",
+      "price": 369.4,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421799/thumb-thumb-KGB_10_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421799/thumb-thumb-KGB_10_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421799/thumb-thumb-KGB_10_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421799/thumb-thumb-KGB_10_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421793,
+      "title": "タイガーゴールドバー",
+      "price": 369.4,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421793/thumb-thumb-KGB_7_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421793/thumb-thumb-KGB_7_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421793/thumb-thumb-KGB_7_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421793/thumb-thumb-KGB_7_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421792,
+      "title": "牛ゴールドバー",
+      "price": 369.4,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421792/thumb-thumb-KGB_6_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421792/thumb-thumb-KGB_6_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421792/thumb-thumb-KGB_6_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421792/thumb-thumb-KGB_6_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421791,
+      "title": "牛ゴールドバー",
+      "price": 185.7,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421791/thumb-thumb-KGB_6_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421791/thumb-thumb-KGB_6_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421791/thumb-thumb-KGB_6_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421791/thumb-thumb-KGB_6_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421790,
+      "title": "ゴールドバー",
+      "price": 9775.6,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421790/thumb-thumb-KGB_1_1000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421790/thumb-thumb-KGB_1_1000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421790/thumb-thumb-KGB_1_1000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421790/thumb-thumb-KGB_1_1000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421789,
+      "title": "ゴールドバー",
+      "price": 4892.7,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421789/thumb-thumb-KGB_1_500_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421789/thumb-thumb-KGB_1_500_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421789/thumb-thumb-KGB_1_500_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421789/thumb-thumb-KGB_1_500_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421788,
+      "title": "ゴールドバー",
+      "price": 980.5,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421788/thumb-thumb-KGB_1_100_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421788/thumb-thumb-KGB_1_100_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421788/thumb-thumb-KGB_1_100_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421788/thumb-thumb-KGB_1_100_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421787,
+      "title": "ゴールドバー",
+      "price": 736.9,
+      "category": "GOLD BAR",
+      "badge": "RECOMMENDED",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421787/thumb-thumb-KGB_1_75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421787/thumb-thumb-KGB_1_75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421787/thumb-thumb-KGB_1_75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421787/thumb-thumb-KGB_1_75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421786,
+      "title": "ゴールドバー",
+      "price": 369.4,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421786/thumb-thumb-KGB_1_37-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421786/thumb-thumb-KGB_1_37-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421786/thumb-thumb-KGB_1_37-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421786/thumb-thumb-KGB_1_37-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421785,
+      "title": "ゴールドバー",
+      "price": 185.7,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421785/thumb-thumb-KGB_1_18-75_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421785/thumb-thumb-KGB_1_18-75_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421785/thumb-thumb-KGB_1_18-75_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421785/thumb-thumb-KGB_1_18-75_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421784,
+      "title": "ゴールドバー",
+      "price": 113.2,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421784/thumb-thumb-KGB_1_11-25_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421784/thumb-thumb-KGB_1_11-25_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421784/thumb-thumb-KGB_1_11-25_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421784/thumb-thumb-KGB_1_11-25_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421783,
+      "title": "ゴールドバー",
+      "price": 75.3,
+      "category": "GOLD BAR",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2010/1686421783/thumb-thumb-KGB_1_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2010/1686421783/thumb-thumb-KGB_1_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2010/1686421783/thumb-thumb-KGB_1_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2010/1686421783/thumb-thumb-KGB_1_7-5_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421772,
+      "title": "十二支ゴールドバー12種セット",
+      "price": 466.6,
+      "category": "GOLD BAR",
+      "badge": "HIT",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/2040/1686421772/thumb-thumb-KGB_5S_45_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "gold-bar": [
+      1686421799,
+      1686421793,
+      1686421792,
+      1686421791,
+      1686421790,
+      1686421789,
+      1686421788,
+      1686421787,
+      1686421786,
+      1686421785,
+      1686421784,
+      1686421783,
+      1686421772
+    ]
+  }
+}

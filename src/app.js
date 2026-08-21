@@ -35,10 +35,12 @@ app.get("/api/health", async (_req, res, next) => {
 
 app.use("/api/auth", customerAuthRoutes);
 app.use("/api/admin/auth", adminAuthRoutes);
+// Mount the specific admin namespace before the generic /api routers.
+// Otherwise customer-auth middleware in commerce/account can intercept admin JWTs.
+app.use("/api/admin", adminRoutes);
 app.use("/api", catalogRoutes);
 app.use("/api", commerceRoutes);
 app.use("/api", accountRoutes);
-app.use("/api/admin", adminRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ success: false, message: `Route not found: ${req.method} ${req.originalUrl}` });

@@ -1,0 +1,38 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=4040&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:36:12.416Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 4040,
+    "name": "ゴールドスプーン",
+    "slug": "gold-spoon",
+    "parentSourceCategoryId": 40,
+    "parentName": "初誕生",
+    "parentSlug": "first-birthday"
+  },
+  "products": [
+    {
+      "id": 1686421650,
+      "title": "ゴールドスプーン フォーク セット",
+      "price": 77,
+      "category": "ゴールドスプーン",
+      "badge": "RECOMMENDED",
+      "description": "[リング] 女性基本12号 | 男性基本19号 [ネックレス] 女性基本42cm | 男性基本50cm [ブレスレット] 女性基本17.5cm | 男性基本19.5cm",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/4040/1686421650/thumb-thumb-GBS_2_7-5_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/4040/1686421650/thumb-thumb-GBS_2_7-5_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/4040/1686421650/thumb-thumb-GBS_2_7-5_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/4040/1686421650/thumb-thumb-GBS_2_7-5_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "gold-spoon": [
+      1686421650
+    ]
+  }
+}

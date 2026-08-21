@@ -1,0 +1,54 @@
+{
+  "source": {
+    "url": "https://houshoshop.jp/shop/list.php?ca_id=3010&sort=&sortodr=&page=1",
+    "scrapedAt": "2026-08-21T00:32:35.660Z",
+    "pageCount": 1,
+    "discoveredPageCount": 1
+  },
+  "category": {
+    "sourceCategoryId": 3010,
+    "name": "高級型シルバーバー",
+    "slug": "premium-silver-bar",
+    "parentSourceCategoryId": 30,
+    "parentName": "SILVER BAR",
+    "parentSlug": "silver-bar"
+  },
+  "products": [
+    {
+      "id": 1686421753,
+      "title": "シルバーバー 1000g",
+      "price": 139.4,
+      "category": "高級型シルバーバー",
+      "badge": "NONE",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3010/1686421753/thumb-thumb-KSB_1_1000_01_1000x1000_600x600.jpg"
+    },
+    {
+      "id": 1686421752,
+      "title": "シルバーバー 500g",
+      "price": 69.1,
+      "category": "高級型シルバーバー",
+      "badge": "HIT",
+      "description": "商品情報をご確認ください。",
+      "material": "Gold",
+      "image": "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_01_1000x1000_600x600.jpg",
+      "gallery": [
+        "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_01_1000x1000_600x600.jpg",
+        "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_02_1000x1000_600x600.jpg"
+      ],
+      "sourceImage": "https://houshoshop.jp/data/item/3010/1686421752/thumb-thumb-KSB_1_500_01_1000x1000_600x600.jpg"
+    }
+  ],
+  "sections": {
+    "premium-silver-bar": [
+      1686421753,
+      1686421752
+    ]
+  }
+}
