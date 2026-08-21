@@ -55,13 +55,19 @@ const run = async () => {
         short_description=VALUES(short_description),material=VALUES(material),price_yen=VALUES(price_yen),
         badge=VALUES(badge),status='ACTIVE'`, [item.id, categoryIds.get(item.category), sku,
         `product-${item.id}`, item.title, item.description || null, item.material || null, priceYen, item.badge || "NONE"]);
+      const [existingImages] = await connection.query(
+        "SELECT image_url,sort_order FROM product_images WHERE product_id=? ORDER BY sort_order,id",
+        [item.id],
+      );
       await connection.query("DELETE FROM product_images WHERE product_id=?", [item.id]);
       await connection.query(`INSERT INTO product_categories(product_id,category_id,is_primary,sort_order) VALUES(?,?,TRUE,?)
         ON DUPLICATE KEY UPDATE sort_order=VALUES(sort_order)`, [item.id, categoryIds.get(item.category), productIndex]);
       const gallery = item.gallery?.length ? item.gallery : [item.image];
       for (const [index, url] of gallery.entries()) {
+        const localizedUrl = existingImages.find((image) =>
+          Number(image.sort_order) === index && String(image.image_url).startsWith("/uploads/products/"))?.image_url;
         await connection.query(`INSERT INTO product_images(product_id,image_url,alt_text,sort_order,is_primary)
-          VALUES(?,?,?,?,?)`, [item.id, url, item.title, index, index === 0]);
+          VALUES(?,?,?,?,?)`, [item.id, localizedUrl || url, item.title, index, index === 0]);
       }
       const [variants] = await connection.query("SELECT id FROM product_variants WHERE product_id=? LIMIT 1", [item.id]);
       let variantId = variants[0]?.id;

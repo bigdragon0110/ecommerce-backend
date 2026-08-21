@@ -2,8 +2,8 @@ import db from "../config/db.js";
 
 export const findAdminByLogin = async (login) => {
   const [rows] = await db.execute(
-    "SELECT * FROM admins WHERE username = ? OR email = ? LIMIT 1",
-    [login, String(login).toLowerCase()],
+    "SELECT * FROM admins WHERE username = ? LIMIT 1",
+    [login],
   );
   return rows[0] || null;
 };

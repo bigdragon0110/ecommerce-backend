@@ -1,5 +1,7 @@
 import cors from "cors";
 import express from "express";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { checkDatabaseConnection } from "./config/db.js";
 import customerAuthRoutes from "./routes/auth.js";
 import adminAuthRoutes from "./routes/admin-auth.js";
@@ -9,6 +11,8 @@ import adminRoutes from "./routes/admin.js";
 import accountRoutes from "./routes/account.js";
 
 const app = express();
+const here = path.dirname(fileURLToPath(import.meta.url));
+const uploadRoot = path.resolve(process.env.UPLOAD_ROOT || path.join(here, "../../shared-storage/images"));
 const allowedOrigins = new Set([
   process.env.SHOP_ORIGIN || "http://localhost:3000",
   process.env.ADMIN_ORIGIN || "http://localhost:3001",
@@ -23,6 +27,7 @@ app.use(cors({
   },
 }));
 app.use(express.json({ limit: "1mb" }));
+app.use("/uploads", express.static(uploadRoot, { fallthrough: false, maxAge: "7d", immutable: true }));
 
 app.get("/api/health", async (_req, res, next) => {
   try {

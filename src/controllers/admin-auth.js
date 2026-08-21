@@ -20,13 +20,13 @@ const tokenFor = (admin) => {
 };
 
 export const login = async (req, res, next) => {
-  const loginValue = String(req.body?.login || req.body?.username || req.body?.email || "").trim();
+  const loginValue = String(req.body?.username || req.body?.login || "").trim();
   const password = String(req.body?.password || "");
-  if (!loginValue || !password) return res.status(400).json({ success: false, message: "Login and password are required." });
+  if (!loginValue || !password) return res.status(400).json({ success: false, message: "Username and password are required." });
   try {
     const admin = await findAdminByLogin(loginValue);
     if (!admin || admin.status !== "ACTIVE" || !(await bcrypt.compare(password, admin.password_hash))) {
-      return res.status(401).json({ success: false, message: "Invalid admin login or password." });
+      return res.status(401).json({ success: false, message: "Invalid admin username or password." });
     }
     await updateAdminLastLogin(admin.id);
     return res.json({ success: true, token: tokenFor(admin), admin: safeAdmin(admin) });
