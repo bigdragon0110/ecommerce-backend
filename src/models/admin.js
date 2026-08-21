@@ -22,12 +22,23 @@ export const dashboard = async () => {
 };
 
 export const listAdminProducts = async () => {
-  const [rows] = await db.query(`SELECT p.id,p.category_id AS categoryId,p.sku,p.slug,p.title,p.price_yen AS priceYen,p.badge,p.status,
+  const [rows] = await db.query(`SELECT p.id,p.category_id AS categoryId,p.sku,p.slug,p.title,
+    p.short_description AS shortDescription,p.description,p.material,p.price_yen AS priceYen,p.badge,p.status,
     p.created_at AS createdAt,c.name AS categoryName,
     COALESCE(SUM(i.quantity_available),0) AS stock FROM products p LEFT JOIN categories c ON c.id=p.category_id
     LEFT JOIN product_variants v ON v.product_id=p.id LEFT JOIN inventory i ON i.variant_id=v.id
     WHERE p.deleted_at IS NULL GROUP BY p.id ORDER BY p.created_at DESC`);
-  return rows;
+  if(!rows.length)return rows;
+  const [images]=await db.query(`SELECT product_id AS productId,image_url AS url,alt_text AS altText,
+    sort_order AS sortOrder,is_primary AS isPrimary FROM product_images WHERE product_id IN (?)
+    ORDER BY product_id,is_primary DESC,sort_order,id`,[rows.map(row=>row.id)]);
+  const byProduct=new Map();
+  for(const image of images){
+    const list=byProduct.get(image.productId)||[];
+    list.push({...image,isPrimary:Boolean(image.isPrimary)});
+    byProduct.set(image.productId,list);
+  }
+  return rows.map(row=>({...row,images:byProduct.get(row.id)||[]}));
 };
 
 export const getAdminProduct = async (id) => {

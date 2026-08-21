@@ -26,6 +26,9 @@ app.use(cors({
     return callback(Object.assign(new Error("Origin is not allowed by CORS."), { status: 403 }));
   },
 }));
+// Only the authenticated image endpoint needs a larger body allowance. All
+// other JSON APIs keep the smaller limit.
+app.use("/api/admin/uploads/products", express.json({ limit: "60mb" }));
 app.use(express.json({ limit: "1mb" }));
 app.use("/uploads", express.static(uploadRoot, { fallthrough: false, maxAge: "7d", immutable: true }));
 

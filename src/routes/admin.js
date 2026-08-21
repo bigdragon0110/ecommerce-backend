@@ -1,13 +1,41 @@
 import { Router } from "express";
+import { randomUUID } from "node:crypto";
+import { mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { adminAuth } from "../middleware/auth.js";
 import * as admin from "../models/admin.js";
 
 const router=Router();router.use(adminAuth);
+const here=path.dirname(fileURLToPath(import.meta.url));
+const uploadRoot=path.resolve(process.env.UPLOAD_ROOT||path.join(here,"../../../shared-storage/images"));
+const productUploadDir=path.join(uploadRoot,"products");
+const imageTypes=new Map([
+  ["image/jpeg",".jpg"],["image/png",".png"],["image/webp",".webp"],
+  ["image/gif",".gif"],["image/avif",".avif"],
+]);
 const wrap=(handler)=>(req,res,next)=>Promise.resolve(handler(req,res)).catch(next);
 const context=(req)=>({ip:req.ip,userAgent:req.get("user-agent")});
 const logged=(action,type,handler)=>wrap(async(req,res)=>{const result=await handler(req);await admin.audit(req.auth.sub,action,type,req.params.id||result?.id,null,result,context(req));res.json({success:true,data:result});});
 
 router.get("/dashboard",wrap(async(_req,res)=>res.json({success:true,dashboard:await admin.dashboard()})));
+router.post("/uploads/products",wrap(async(req,res)=>{
+  const files=Array.isArray(req.body?.files)?req.body.files:[];
+  if(!files.length||files.length>10)throw Object.assign(new Error("Select between 1 and 10 product images."),{status:400});
+  await mkdir(productUploadDir,{recursive:true});
+  const images=[];
+  for(const file of files){
+    const extension=imageTypes.get(file?.type);
+    if(!extension)throw Object.assign(new Error("Only JPEG, PNG, WebP, GIF, and AVIF images are allowed."),{status:400});
+    const encoded=String(file?.data||"").replace(/^data:[^;]+;base64,/,"");
+    const buffer=Buffer.from(encoded,"base64");
+    if(!buffer.length||buffer.length>10*1024*1024)throw Object.assign(new Error("Each image must be no larger than 10 MB."),{status:400});
+    const filename=`${Date.now()}-${randomUUID()}${extension}`;
+    await writeFile(path.join(productUploadDir,filename),buffer,{flag:"wx"});
+    images.push({url:`/uploads/products/${filename}`,altText:String(file?.name||"").replace(/\.[^.]+$/,"")});
+  }
+  res.status(201).json({success:true,images});
+}));
 router.get("/products",wrap(async(_req,res)=>res.json({success:true,products:await admin.listAdminProducts()})));
 router.get("/products/:id",wrap(async(req,res)=>{const p=await admin.getAdminProduct(req.params.id);if(!p)return res.status(404).json({success:false,message:"Product not found."});return res.json({success:true,product:p});}));
 router.post("/products",logged("PRODUCT_CREATE","product",async req=>{if(!req.body.sku||!req.body.slug||!req.body.title||!Number.isInteger(Number(req.body.priceYen)))throw Object.assign(new Error("sku, slug, title, and integer priceYen are required."),{status:400});return admin.createProduct(req.body);}));
