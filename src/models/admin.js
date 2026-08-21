@@ -42,12 +42,18 @@ export const listAdminProducts = async () => {
 };
 
 export const getAdminProduct = async (id) => {
-  const [rows] = await db.execute("SELECT * FROM products WHERE id=? AND deleted_at IS NULL", [id]);
+  const [rows] = await db.execute(`SELECT id,category_id AS categoryId,sku,slug,title,
+    short_description AS shortDescription,description,material,manufacturer,origin_country AS originCountry,
+    price_yen AS priceYen,compare_at_price_yen AS compareAtPriceYen,cost_price_yen AS costPriceYen,
+    badge,status,is_featured AS isFeatured,published_at AS publishedAt,created_at AS createdAt,
+    updated_at AS updatedAt FROM products WHERE id=? AND deleted_at IS NULL`, [id]);
   if (!rows[0]) return null;
-  const [images] = await db.execute("SELECT * FROM product_images WHERE product_id=? ORDER BY is_primary DESC,sort_order,id", [id]);
+  const [images] = await db.execute(`SELECT id,product_id AS productId,image_url AS url,alt_text AS altText,
+    sort_order AS sortOrder,is_primary AS isPrimary FROM product_images
+    WHERE product_id=? ORDER BY is_primary DESC,sort_order,id`, [id]);
   const [variants] = await db.execute(`SELECT v.*,i.quantity_available,i.quantity_reserved,i.low_stock_threshold
     FROM product_variants v LEFT JOIN inventory i ON i.variant_id=v.id WHERE v.product_id=? ORDER BY v.id`, [id]);
-  return { ...rows[0], images, variants };
+  return { ...rows[0], images: images.map((image) => ({ ...image, isPrimary: Boolean(image.isPrimary) })), variants };
 };
 
 export const createProduct = async (payload) => {
