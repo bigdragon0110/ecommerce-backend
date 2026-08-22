@@ -3,7 +3,7 @@ import db from "../config/db.js";
 
 export const getProfile = async (userId) => {
   const [rows] = await db.execute(`SELECT id,email,username,first_name AS firstName,last_name AS lastName,
-    phone,status,last_login_at AS lastLoginAt,created_at AS createdAt FROM users WHERE id=? LIMIT 1`, [userId]);
+    phone,status,balance,last_login_at AS lastLoginAt,created_at AS createdAt FROM users WHERE id=? LIMIT 1`, [userId]);
   return rows[0] || null;
 };
 

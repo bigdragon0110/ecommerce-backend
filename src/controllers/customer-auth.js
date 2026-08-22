@@ -9,6 +9,7 @@ const safeUser = (user) => ({
   email: user.email,
   firstName: user.first_name || null,
   lastName: user.last_name || null,
+  balance: Number(user.balance || 0),
   status: user.status,
 });
 const tokenFor = (user) => {

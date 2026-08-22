@@ -127,7 +127,8 @@ export const createOrder = async (userId, payload) => {
 
 export const getOrders = async (userId) => {
   const [rows] = await db.execute(`SELECT id,order_number AS orderNumber,status,payment_status AS paymentStatus,
-    fulfillment_status AS fulfillmentStatus,total_yen AS totalYen,placed_at AS placedAt,created_at AS createdAt
+    fulfillment_status AS fulfillmentStatus,total_yen AS totalYen,placed_at AS placedAt,created_at AS createdAt,
+    (SELECT COALESCE(SUM(oi.quantity),0) FROM order_items oi WHERE oi.order_id=orders.id) AS itemCount
     FROM orders WHERE user_id=? ORDER BY created_at DESC`, [userId]);
   return rows;
 };
