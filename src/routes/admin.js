@@ -55,7 +55,13 @@ router.delete("/collections/:id",logged("COLLECTION_DELETE","collection",async r
 router.get("/inventory",wrap(async(_req,res)=>res.json({success:true,inventory:await admin.listInventory()})));
 router.patch("/inventory/:id",logged("INVENTORY_UPDATE","inventory",req=>admin.updateInventory(req.params.id,req.body)));
 router.get("/customers",wrap(async(_req,res)=>res.json({success:true,customers:await admin.listCustomers()})));
+router.get("/customers/:id",wrap(async(req,res)=>{const customer=await admin.getCustomer(req.params.id);if(!customer)return res.status(404).json({success:false,message:"Customer not found."});return res.json({success:true,customer});}));
+router.post("/customers",logged("CUSTOMER_CREATE","customer",req=>admin.createCustomer(req.body)));
+router.patch("/customers/:id",logged("CUSTOMER_UPDATE","customer",req=>admin.updateCustomer(req.params.id,req.body)));
 router.patch("/customers/:id/status",logged("CUSTOMER_STATUS_UPDATE","customer",req=>admin.updateCustomerStatus(req.params.id,req.body.status)));
+router.patch("/customers/:id/password",logged("CUSTOMER_PASSWORD_UPDATE","customer",req=>admin.updateCustomerPassword(req.params.id,req.body.password)));
+router.post("/customers/:id/points",logged("CUSTOMER_POINTS_ADJUST","customer",req=>admin.adjustCustomerPoints(req.params.id,req.body,req.auth.sub)));
+router.delete("/customers/:id",logged("CUSTOMER_DEACTIVATE","customer",req=>admin.deactivateCustomer(req.params.id)));
 router.get("/notifications",wrap(async(_req,res)=>res.json({success:true,notifications:await notifications.listAdminNotifications()})));
 router.post("/notifications",logged("NOTIFICATION_CREATE","notification",req=>notifications.createNotification(req.auth.sub,req.body)));
 router.delete("/notifications/:id",logged("NOTIFICATION_DELETE","notification",async req=>({id:req.params.id,deleted:Boolean(await notifications.deleteNotification(req.params.id))})));

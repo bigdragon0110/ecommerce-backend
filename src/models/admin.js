@@ -1,3 +1,4 @@
+import bcrypt from "bcrypt";
 import db from "../config/db.js";
 
 export const audit = async (adminId, action, entityType, entityId, oldValues = null, newValues = null, request = {}) => {
@@ -121,9 +122,92 @@ export const updateInventory = async(id,p)=>{await db.execute(`UPDATE inventory 
  quantity_reserved=COALESCE(?,quantity_reserved),low_stock_threshold=COALESCE(?,low_stock_threshold) WHERE variant_id=?`,
  [p.quantityAvailable??null,p.quantityReserved??null,p.lowStockThreshold??null,id]);return(await db.execute("SELECT * FROM inventory WHERE variant_id=?",[id]))[0][0]||null;};
 
-export const listCustomers = async () => (await db.query(`SELECT id,email,username,first_name AS firstName,last_name AS lastName,
- phone,status,last_login_at AS lastLoginAt,created_at AS createdAt FROM users ORDER BY created_at DESC`))[0];
-export const updateCustomerStatus = async(id,status)=>{await db.execute("UPDATE users SET status=? WHERE id=?",[status,id]);return(await db.execute("SELECT id,email,username,status FROM users WHERE id=?",[id]))[0][0]||null;};
+const customerSelect = `SELECT id,email,username,first_name AS firstName,last_name AS lastName,
+ phone,status,COALESCE(balance,0) AS balance,last_login_at AS lastLoginAt,created_at AS createdAt FROM users`;
+const customerError = (message, status = 400) => Object.assign(new Error(message), { status });
+const normalizeCustomerStatus = (status) => {
+  const value = String(status || "").trim().toUpperCase();
+  if (!['ACTIVE', 'INACTIVE'].includes(value)) throw customerError("Status must be ACTIVE or INACTIVE.");
+  return value;
+};
+const customerById = async (id, connection = db) => (await connection.execute(`${customerSelect} WHERE id=? LIMIT 1`, [id]))[0][0] || null;
+const ensureUniqueCustomer = async ({ username, email }, excludeId = 0, connection = db) => {
+  const [rows] = await connection.execute(
+    "SELECT id FROM users WHERE (username=? OR email=?) AND id<>? LIMIT 1",
+    [username, email, Number(excludeId || 0)],
+  );
+  if (rows.length) throw customerError("Username or email is already registered.", 409);
+};
+
+export const listCustomers = async () => (await db.query(`${customerSelect} ORDER BY created_at DESC`))[0];
+export const getCustomer = async (id) => customerById(id);
+export const createCustomer = async (payload) => {
+  const username = String(payload.username || "").trim();
+  const email = String(payload.email || "").trim().toLowerCase();
+  const password = String(payload.password || "");
+  const firstName = String(payload.firstName || "").trim();
+  const lastName = String(payload.lastName || "").trim();
+  if (!username || !email || !firstName || !lastName) throw customerError("Username, email, first name, and last name are required.");
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw customerError("Enter a valid email address.");
+  if (password.length < 8) throw customerError("Password must be at least 8 characters.");
+  await ensureUniqueCustomer({ username, email });
+  const [result] = await db.execute(`INSERT INTO users(username,email,password_hash,first_name,last_name,phone,status,balance)
+    VALUES(?,?,?,?,?,?,?,?)`, [username,email,await bcrypt.hash(password,12),firstName,lastName,String(payload.phone||"").trim()||null,
+    normalizeCustomerStatus(payload.status || "ACTIVE"),Math.max(0,Math.trunc(Number(payload.balance || 0)))]);
+  return customerById(result.insertId);
+};
+export const updateCustomer = async (id, payload) => {
+  const existing = await customerById(id);
+  if (!existing) throw customerError("Customer not found.", 404);
+  const next = {
+    username: Object.hasOwn(payload,"username") ? String(payload.username||"").trim() : existing.username,
+    email: Object.hasOwn(payload,"email") ? String(payload.email||"").trim().toLowerCase() : existing.email,
+  };
+  if (!next.username || !next.email) throw customerError("Username and email are required.");
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(next.email)) throw customerError("Enter a valid email address.");
+  await ensureUniqueCustomer(next,id);
+  const fields={username:"username",email:"email",firstName:"first_name",lastName:"last_name",phone:"phone",status:"status"};
+  const sets=[];const values=[];
+  for(const [key,column] of Object.entries(fields)) if(Object.hasOwn(payload,key)){
+    let value=key==="status"?normalizeCustomerStatus(payload[key]):String(payload[key]??"").trim();
+    if(["firstName","lastName"].includes(key)&&!value)throw customerError(`${key} is required.`);
+    sets.push(`${column}=?`);values.push(value||null);
+  }
+  if(sets.length){values.push(id);await db.execute(`UPDATE users SET ${sets.join(",")} WHERE id=?`,values);}
+  return customerById(id);
+};
+export const updateCustomerStatus = async(id,status)=>updateCustomer(id,{status});
+export const updateCustomerPassword = async(id,password)=>{
+  if(!(await customerById(id)))throw customerError("Customer not found.",404);
+  if(String(password||"").length<8)throw customerError("Password must be at least 8 characters.");
+  await db.execute("UPDATE users SET password_hash=? WHERE id=?",[await bcrypt.hash(String(password),12),id]);
+  return {id:Number(id),passwordUpdated:true};
+};
+export const adjustCustomerPoints = async(id,payload,adminId)=>{
+  const amount=Math.trunc(Number(payload.amount));
+  const reason=String(payload.reason||"").trim();
+  if(!Number.isSafeInteger(amount)||amount===0)throw customerError("A non-zero integer point amount is required.");
+  if(!reason)throw customerError("A reason is required for point adjustments.");
+  const connection=await db.getConnection();
+  try{
+    await connection.beginTransaction();
+    const [[user]]=await connection.execute("SELECT id,balance FROM users WHERE id=? FOR UPDATE",[id]);
+    if(!user)throw customerError("Customer not found.",404);
+    const before=Number(user.balance||0),after=before+amount;
+    if(after<0)throw customerError("This adjustment would make the point balance negative.");
+    await connection.execute("UPDATE users SET balance=? WHERE id=?",[after,id]);
+    await connection.execute(`INSERT INTO user_point_transactions(user_id,admin_id,amount,balance_before,balance_after,reason)
+      VALUES(?,?,?,?,?,?)`,[id,adminId,amount,before,after,reason]);
+    await connection.commit();
+    return {id:Number(id),amount,balance:after,reason};
+  }catch(error){await connection.rollback();throw error;}finally{connection.release();}
+};
+export const deactivateCustomer = async(id)=>{
+  const existing=await customerById(id);
+  if(!existing)throw customerError("Customer not found.",404);
+  await db.execute("UPDATE users SET status='INACTIVE' WHERE id=?",[id]);
+  return {...existing,status:"INACTIVE",deactivated:true};
+};
 
 export const listOrdersAdmin = async()=> (await db.query(`SELECT id,order_number AS orderNumber,user_id AS userId,customer_email AS customerEmail,
  status,payment_status AS paymentStatus,fulfillment_status AS fulfillmentStatus,total_yen AS totalYen,created_at AS createdAt
